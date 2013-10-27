@@ -19,8 +19,10 @@ def add_movie(request):
     newmovie.save()
     return HttpResponseRedirect('/movies')
 
-def movie(request, movie_id):
-    return HttpResponse("this is where you see movie number " + movie_id + " and all it's comments")
+def movie(request , movie_id):
+    movie_object = Movie.objects.filter(id=movie_id)
+    context = {'movie':movie_object}
+    return render(request, 'movies/movie.html' ,context)
 
 def add_comment(request, movie_id):
     return HttpResponse("adding comment to movie " + movie_id)
