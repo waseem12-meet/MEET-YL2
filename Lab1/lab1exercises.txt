@@ -1,0 +1,8 @@
+python manage.py runserver then went to the server and typed 127.0.0.1:8000
+127.0.0.1:8000/movies coz its the main thing , its in all the lines ..
+this is where you see movie number 1 and all it's comments ,, this is so what its saying that this is movie no 1 ..
+samething but it says movie no 2 so what i understood from it that everymovie has a number .. if i added 100 movies it will be the url will be the same but in different numbers 
+this line  url(r'^movies/addmovie', views.add_movie) get called ,.. and then when i typed this 127.0.0.1:8000/movies/5
+this line get called url(r'^movies/(?P<movie_id>\d+)', views.movie),..
+nothing happen so in this case i think when u want to call a movie u called it by its number not by its name cos its not working...
+  
