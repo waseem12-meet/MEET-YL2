@@ -1,0 +1,5 @@
+I like the initial interface I see when I open the app. I can very clearly see what I am supposed to do and what I am supposed to click. However, when I take my picture and want to draw on it, it doesn’t exactly draw correctly. There is a tutorial right in AppInventor that does at least part of the drawing that you were intending to do that might help you if you want to fix up the app. 
+
+Another thing that happens is that the container you keep the picture inside is too big for the screen. Once I take a picture I can no longer take a new picture or scroll anywhere. 
+
+I like the idea of your app and I like how you started, but I would have liked to see a little bit more progress. If you want to keep working on the app to make something you are really proud of, I am happy to help you. 
